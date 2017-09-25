@@ -50,6 +50,7 @@ table {
   height: 40%;
   left: 10%;
   margin: 20px auto;
+  margin-top: auto;
   overflow-y: scroll;
   position: static;
   width: 80%;
