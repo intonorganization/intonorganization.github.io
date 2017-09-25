@@ -1,1 +1,116 @@
+body {
+  background: #EEE;
+  margin: 0;
+  padding: 0;
+}
 
+/* Navigation */
+/*
+.navigation {
+  box-sizing: border-box;
+  background-color: #3587A4;
+  overflow: auto;
+  padding: 18px 50px;
+  position: relative;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+*/
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  color: #FFF;
+  display: inline-block;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 20px 18px 10px 18px;
+  text-transform: uppercase;
+}
+
+.active {
+  color: #88CCF1;
+}
+
+/* Table */
+
+table {
+  height: 40%;
+  left: 10%;
+  margin: 20px auto;
+  overflow-y: scroll;
+  position: static;
+  width: 80%;
+}
+
+thead th {
+  background: #88CCF1;
+  color: #FFF;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+tr {
+  background: #f4f7f8;
+  border-bottom: 1px solid #FFF;
+  margin-bottom: 5px;
+}
+
+th, td {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  padding: 20px;
+  text-align: left;
+  width: 33.3333%;
+  font-size: 18px;
+}
+
+a:link {
+    text-decoration: none;
+    color: Black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: Black;
+    /*[DEFAULT :visited in most browsers] color: #551A8B */
+}
+
+a:hover {
+    text-decoration: none;
+    color: Crimson;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+#top {
+  text-align: center;
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #334c5c);
+  background-image: -moz-linear-gradient(top, #3498db, #334c5c);
+  background-image: -ms-linear-gradient(top, #3498db, #334c5c);
+  background-image: -o-linear-gradient(top, #3498db, #334c5c);
+  background-image: linear-gradient(to bottom, #3498db, #334c5c);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Arial;
+  color: #000000;
+  font-size: 32px;
+  padding: 10px 20px 10px 20px;
+  border: solid #1f628d 1px;
+  text-decoration: none;
+}
