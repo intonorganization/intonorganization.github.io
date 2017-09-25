@@ -40,7 +40,7 @@ li {
 }
 img {
   display: block;
-  align: center;
+  float: center;
 }
 
 /* Table */
